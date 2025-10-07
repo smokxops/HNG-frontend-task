@@ -1,0 +1,58 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f3f4f6;
+  color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  text-align: center;
+  width: 350px;
+}
+
+.img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  border: 3px solid #f97316;
+}
+
+.track {
+  font-weight: 600;
+  color: #2563eb;
+  margin-top: 0.3rem;
+}
+
+.github {
+  margin-top: 1.5rem;
+}
+
+.github a {
+  color: #f97316;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.github a:hover {
+  text-decoration: underline;
+}
+.button {
+  background-color: #543118;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 1.5rem;
+}

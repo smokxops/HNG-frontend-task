@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Charles Gabriel - HNG Page</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <main class="container">
+      <!-- Profile Section -->
+      <div class="slack-container">
+        <img
+          src="asset/mypic_charly.jpg"
+          alt="Charles Gabriel"
+          data-testid="slackDisplayImage"
+          class="img"
+        />
+
+        <div class="info">
+          <h1 data-testid="slackUserName">Charles_Gabriel_Azuh</h1>
+          <p data-testid="myTrack" class="track">Frontend Developer</p>
+        </div>
+      </div>
+
+      <!-- Dynamic Time & Date Section -->
+      <div class="date">
+        <p data-testid="currentDayOfTheWeek" class="day">Loading day...</p>
+        <p data-testid="currentUTCTime" class="time">Loading time...</p>
+      </div>
+
+      <!-- GitHub Section -->
+      <div class="github">
+        <p>Click the button below to view the source code:</p>
+        <a
+          href="https://github.com/charlesgabrieldev/HNG-frontend-task"
+          data-testid="githubURL"
+          class="url"
+          target="_blank"
+        >
+          Here
+        </a>
+      </div>
+    </main>
+
+    <!-- External JS -->
+    <script src="app.js"></script>
+  </body>
+</html>
